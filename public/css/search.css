@@ -1,0 +1,246 @@
+/* Google Fonts Montserret and Poppins */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900');
+
+/* Global CSS
+body{
+	color: #333;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+a{
+	color: #fde52c;
+	transition: 0.4s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}*/
+ul li{
+	list-style: square inside url();
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	color:#079d49;
+	text-align:center;
+}
+hr{
+	background:#F1F1F1;
+}
+
+/*------ Navigation ------*/
+
+#nav-bar{
+	position:sticky;
+	top:0;
+	z-index:10;
+
+}
+.navbar {
+	top:0;
+	position:sticky;
+	z-index:2;
+}
+.navbar {
+
+	background-color:#111010!important;
+
+}
+
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+	float:right;
+	text-align:left;
+	color:#FFFFFF!important;
+
+}
+#nav-bar ul li a:hover
+{
+	color:#079d49!important;
+}
+#nav-bar h1{
+	color:white;
+}
+.navbar-toggler{
+	background:#fff;
+}
+.nav-link{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px;
+}
+
+/*-------------------*/
+
+.pps2{
+    background: url(../images/m.jpg) no-repeat center;
+
+	background-size: cover;
+
+	width:100%;
+	padding-top:50px;
+	padding-bottom:20px;
+	/*opacity:0.5;*/
+
+
+
+}
+.back{
+	background-color:#7F6C81;
+	margin-right:600px;
+	padding:5px 10px;
+	color:white;
+	opacity:0.9;
+	font-size:20px;
+	text-align:center;
+
+
+
+}
+.trd{
+	top:50px;
+	color:black;
+	font-size:25px;
+
+
+}
+.button{
+	background:green;
+	font-size:18px;
+	border: 1px solid green;
+    border-radius: 5px;
+	padding:15px 15px;
+	color:white;
+	font-size:25px;
+
+}
+
+
+.hala{
+
+	background:#E8E8E8;
+	color:black;
+	text-align:center;
+	margin-right:250px;
+	margin-top:100px;
+	margin-bottom:50px;
+	border: 2px solid green;
+    border-radius: 5px;
+	padding:5px;
+
+
+}
+.table-striped{
+	border-bottom: 2px solid green;
+    border-radius: 5px;
+}
+.table-striped th{
+	background-color:#847286;
+	margin-top:30px;
+	padding:20px;
+
+}
+.table-striped td{
+	padding:50px;
+}
+
+/*-------------------*/
+
+/* Header section css Start */
+.p{
+	background-color:#079d49;
+	padding:0.5px;
+
+}
+.pp{
+	padding-top:50px;
+}
+.form-control{
+	border: 2px solid #079d49;
+	border-radius: 100px;
+	padding:20px auto;
+
+}
+.button{
+	background:#079d49;
+	border-color: #079d49;
+	text-align:center;
+
+
+}
+.b1{
+
+	padding:10px 7px;
+	background:none;
+	color:white;
+	font-size:18px;
+	transition:0.4s ease-in-out;
+	border: 0px transparent none;
+	border-radius: 100px;
+
+
+}
+.fa-search{
+	color:white;
+}
+.search{
+	background-color:#F1F1F1;
+	height:75px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.select{
+	margin-top:-71px;
+}
+.select-p{
+	margin-left:90px;
+}
+.pps{
+	margin-top:20px;
+	background-color:#F1F1F1;
+	border: 1px solid #dddddd;
+	text-align:center;
+	margin-bottom:20px;
+
+}
+.ticket{
+	margin-top:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#079d49;
+	text-align:left;
+}
+.train{
+	text-align:left;
+}
+.foot{
+	background-color:black;
+	float:left;
+	width:100%;
+	padding-top:20px;
+}
+.foot p{
+	color:red;
+	text-align:center;
+}
+
+/*Header section css end*/
